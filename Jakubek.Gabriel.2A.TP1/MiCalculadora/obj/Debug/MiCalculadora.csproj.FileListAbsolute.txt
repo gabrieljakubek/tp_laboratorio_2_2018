@@ -1,0 +1,11 @@
+E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratorio 2A\Trabajos Practicos\Jakubek.Gabriel.2A.TP1\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratorio 2A\Trabajos Practicos\Jakubek.Gabriel.2A.TP1\MiCalculadora\bin\Debug\MiCalculadora.exe
+E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratorio 2A\Trabajos Practicos\Jakubek.Gabriel.2A.TP1\MiCalculadora\bin\Debug\MiCalculadora.pdb
+E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratorio 2A\Trabajos Practicos\Jakubek.Gabriel.2A.TP1\MiCalculadora\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
+E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratorio 2A\Trabajos Practicos\Jakubek.Gabriel.2A.TP1\MiCalculadora\obj\Debug\MiCalculadora.Form1.resources
+E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratorio 2A\Trabajos Practicos\Jakubek.Gabriel.2A.TP1\MiCalculadora\obj\Debug\MiCalculadora.LaCalculadora.resources
+E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratorio 2A\Trabajos Practicos\Jakubek.Gabriel.2A.TP1\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratorio 2A\Trabajos Practicos\Jakubek.Gabriel.2A.TP1\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratorio 2A\Trabajos Practicos\Jakubek.Gabriel.2A.TP1\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
+E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratorio 2A\Trabajos Practicos\Jakubek.Gabriel.2A.TP1\MiCalculadora\obj\Debug\MiCalculadora.exe
+E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratorio 2A\Trabajos Practicos\Jakubek.Gabriel.2A.TP1\MiCalculadora\obj\Debug\MiCalculadora.pdb
