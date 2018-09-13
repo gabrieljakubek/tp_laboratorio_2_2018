@@ -1,0 +1,9 @@
+E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratorio 2A\Trabajos Practicos\Jakubek.Gabriel.2A.TP1\Entidades\bin\Debug\netstandard2.0\Entidades.deps.json
+E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratorio 2A\Trabajos Practicos\Jakubek.Gabriel.2A.TP1\Entidades\bin\Debug\netstandard2.0\Entidades.dll
+E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratorio 2A\Trabajos Practicos\Jakubek.Gabriel.2A.TP1\Entidades\bin\Debug\netstandard2.0\Entidades.pdb
+E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratorio 2A\Trabajos Practicos\Jakubek.Gabriel.2A.TP1\Entidades\obj\Debug\netstandard2.0\Entidades.csprojAssemblyReference.cache
+E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratorio 2A\Trabajos Practicos\Jakubek.Gabriel.2A.TP1\Entidades\obj\Debug\netstandard2.0\Entidades.csproj.CoreCompileInputs.cache
+E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratorio 2A\Trabajos Practicos\Jakubek.Gabriel.2A.TP1\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfoInputs.cache
+E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratorio 2A\Trabajos Practicos\Jakubek.Gabriel.2A.TP1\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfo.cs
+E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratorio 2A\Trabajos Practicos\Jakubek.Gabriel.2A.TP1\Entidades\obj\Debug\netstandard2.0\Entidades.dll
+E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratorio 2A\Trabajos Practicos\Jakubek.Gabriel.2A.TP1\Entidades\obj\Debug\netstandard2.0\Entidades.pdb

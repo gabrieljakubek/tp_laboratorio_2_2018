@@ -46,6 +46,7 @@
             this.txtNumero1.Name = "txtNumero1";
             this.txtNumero1.Size = new System.Drawing.Size(115, 38);
             this.txtNumero1.TabIndex = 7;
+            this.txtNumero1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtNumero1.TextChanged += new System.EventHandler(this.txtNumero1_TextChanged);
             // 
             // cmbOperator
@@ -65,18 +66,18 @@
             this.txtNumero2.Name = "txtNumero2";
             this.txtNumero2.Size = new System.Drawing.Size(115, 38);
             this.txtNumero2.TabIndex = 9;
+            this.txtNumero2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtNumero2.TextChanged += new System.EventHandler(this.txtNumero2_TextChanged);
             // 
             // lblResultado
             // 
-            this.lblResultado.AutoSize = true;
             this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(289, 9);
+            this.lblResultado.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblResultado.Location = new System.Drawing.Point(12, 9);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(86, 31);
+            this.lblResultado.Size = new System.Drawing.Size(363, 31);
             this.lblResultado.TabIndex = 10;
-            this.lblResultado.Text = "label1";
-            this.lblResultado.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.lblResultado.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // btnCerrar
             // 
@@ -147,7 +148,7 @@
             this.MinimizeBox = false;
             this.Name = "LaCalculadora";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "LaCalculadora";
+            this.Text = "Calculadora de Gabriel Jakubek de 2ºA";
             this.Load += new System.EventHandler(this.LaCalculadora_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

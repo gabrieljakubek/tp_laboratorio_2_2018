@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    class Numero
+    public class Numero
     {
         #region Atributos
         private double numero;
@@ -50,24 +50,30 @@ namespace Entidades
             char digitoBina;
             string binarioInverso = "";
             numeroAux = (int)numero;
-
-            while (flag)
+            if (numeroAux != 0)
             {
-                if (numeroAux % 2 == 0 || numeroAux % 2 == 0)
+                while (flag)
                 {
-                    binarioInverso = binarioInverso + (numeroAux % 2);
-                    numeroAux /= 2;
-                    if (numeroAux == 1)
+                    if (numeroAux % 2 == 1 || numeroAux % 2 == 0)
                     {
-                        binarioInverso = binarioInverso + numeroAux;
+                        binarioInverso = binarioInverso + (numeroAux % 2);
+                        numeroAux /= 2;
+                        if (numeroAux == 1)
+                        {
+                            binarioInverso = binarioInverso + numeroAux;
+                            flag = false;
+                        }
+                    }
+                    else
+                    {
+                        binarioInverso = "odilavni rolaV";
                         flag = false;
                     }
                 }
-                else
-                {
-                    binarioInverso = "osrevni rolaV";
-                    flag = false;
-                }
+            }
+            else
+            {
+                binarioInverso = "odilavni rolaV";
             }
 
             for (i = binarioInverso.Length - 1; i >= 0; i--)
@@ -79,7 +85,7 @@ namespace Entidades
             return retorno;
         }
 
-        public static string BinarioDecimal(string binario)
+        public string BinarioDecimal(string binario)
         {
             string retorno = "";
             int i;
