@@ -7,3 +7,12 @@ E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratori
 E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratorio 2A\Trabajos Practicos\Jakubek.Gabriel.2A.TP1\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfo.cs
 E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratorio 2A\Trabajos Practicos\Jakubek.Gabriel.2A.TP1\Entidades\obj\Debug\netstandard2.0\Entidades.dll
 E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratorio 2A\Trabajos Practicos\Jakubek.Gabriel.2A.TP1\Entidades\obj\Debug\netstandard2.0\Entidades.pdb
+E:\Segundo Cuatrimestre\Programacion y Laboratorio 2\Trabajos Practicos\Jakubek.Gabriel.2A.TP1\Entidades\bin\Debug\netstandard2.0\Entidades.deps.json
+E:\Segundo Cuatrimestre\Programacion y Laboratorio 2\Trabajos Practicos\Jakubek.Gabriel.2A.TP1\Entidades\bin\Debug\netstandard2.0\Entidades.dll
+E:\Segundo Cuatrimestre\Programacion y Laboratorio 2\Trabajos Practicos\Jakubek.Gabriel.2A.TP1\Entidades\bin\Debug\netstandard2.0\Entidades.pdb
+E:\Segundo Cuatrimestre\Programacion y Laboratorio 2\Trabajos Practicos\Jakubek.Gabriel.2A.TP1\Entidades\obj\Debug\netstandard2.0\Entidades.csprojAssemblyReference.cache
+E:\Segundo Cuatrimestre\Programacion y Laboratorio 2\Trabajos Practicos\Jakubek.Gabriel.2A.TP1\Entidades\obj\Debug\netstandard2.0\Entidades.csproj.CoreCompileInputs.cache
+E:\Segundo Cuatrimestre\Programacion y Laboratorio 2\Trabajos Practicos\Jakubek.Gabriel.2A.TP1\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfoInputs.cache
+E:\Segundo Cuatrimestre\Programacion y Laboratorio 2\Trabajos Practicos\Jakubek.Gabriel.2A.TP1\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfo.cs
+E:\Segundo Cuatrimestre\Programacion y Laboratorio 2\Trabajos Practicos\Jakubek.Gabriel.2A.TP1\Entidades\obj\Debug\netstandard2.0\Entidades.dll
+E:\Segundo Cuatrimestre\Programacion y Laboratorio 2\Trabajos Practicos\Jakubek.Gabriel.2A.TP1\Entidades\obj\Debug\netstandard2.0\Entidades.pdb

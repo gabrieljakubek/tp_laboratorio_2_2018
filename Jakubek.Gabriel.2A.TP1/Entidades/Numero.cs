@@ -66,22 +66,26 @@ namespace Entidades
                     }
                     else
                     {
-                        binarioInverso = "odilavni rolaV";
+                        retorno = "Valor invalido";
+                        //binarioInverso = "odilavni rolaV";
                         flag = false;
                     }
                 }
             }
             else
             {
-                binarioInverso = "odilavni rolaV";
-            }
+                retorno = "Valor invalido";
 
-            for (i = binarioInverso.Length - 1; i >= 0; i--)
+                //binarioInverso = "odilavni rolaV";
+            }
+            if (retorno != "Valor invalido")
             {
-                digitoBina = binarioInverso[i];
-                retorno += digitoBina;
+                for (i = binarioInverso.Length - 1; i >= 0; i--)
+                {
+                    digitoBina = binarioInverso[i];
+                    retorno += digitoBina;
+                }
             }
-
             return retorno;
         }
 

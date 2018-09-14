@@ -45,10 +45,11 @@ namespace MiCalculadora
 
         private void btnOperar_Click(object sender, EventArgs e)
         {
+            chequeo = false;
             this.calculadora = new Calculadora();
             this.num1 = new Numero(this.txtNumero1.Text);
             this.num2 = new Numero(this.txtNumero2.Text);
-            this.lblResultado.Text += calculadora.Operar(num1, num2, this.cmbOperator.Text);
+            this.lblResultado.Text = ""+ calculadora.Operar(num1, num2, this.cmbOperator.Text);
 
         }
 
