@@ -42,7 +42,7 @@
             // txtNumero1
             // 
             this.txtNumero1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNumero1.Location = new System.Drawing.Point(12, 42);
+            this.txtNumero1.Location = new System.Drawing.Point(12, 43);
             this.txtNumero1.Name = "txtNumero1";
             this.txtNumero1.Size = new System.Drawing.Size(115, 38);
             this.txtNumero1.TabIndex = 7;
@@ -53,7 +53,7 @@
             // 
             this.cmbOperator.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbOperator.FormattingEnabled = true;
-            this.cmbOperator.Location = new System.Drawing.Point(133, 41);
+            this.cmbOperator.Location = new System.Drawing.Point(133, 43);
             this.cmbOperator.Name = "cmbOperator";
             this.cmbOperator.Size = new System.Drawing.Size(121, 39);
             this.cmbOperator.TabIndex = 8;
