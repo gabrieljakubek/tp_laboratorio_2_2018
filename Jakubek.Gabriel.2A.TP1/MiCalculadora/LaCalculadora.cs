@@ -21,6 +21,7 @@ namespace MiCalculadora
         public LaCalculadora()
         {
             InitializeComponent();
+
         }
 
         private void LaCalculadora_Load(object sender, EventArgs e)

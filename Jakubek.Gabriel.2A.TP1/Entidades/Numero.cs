@@ -50,33 +50,25 @@ namespace Entidades
             char digitoBina;
             string binarioInverso = "";
             numeroAux = (int)numero;
-            if (numeroAux != 0)
+            if (numeroAux >= 0)
             {
                 while (flag)
                 {
-                    if (numeroAux % 2 == 1 || numeroAux % 2 == 0)
+
+                    binarioInverso = binarioInverso + (numeroAux % 2);
+                    numeroAux /= 2;
+                    if (numeroAux == 1 || numeroAux == 0)
                     {
-                        binarioInverso = binarioInverso + (numeroAux % 2);
-                        numeroAux /= 2;
-                        if (numeroAux == 1)
-                        {
-                            binarioInverso = binarioInverso + numeroAux;
-                            flag = false;
-                        }
-                    }
-                    else
-                    {
-                        retorno = "Valor invalido";
-                        //binarioInverso = "odilavni rolaV";
+                        binarioInverso = binarioInverso + numeroAux;
                         flag = false;
                     }
+
                 }
             }
             else
             {
                 retorno = "Valor invalido";
 
-                //binarioInverso = "odilavni rolaV";
             }
             if (retorno != "Valor invalido")
             {

@@ -53,6 +53,11 @@
             // 
             this.cmbOperator.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbOperator.FormattingEnabled = true;
+            this.cmbOperator.Items.AddRange(new object[] {
+            "+",
+            "-",
+            "*",
+            "/"});
             this.cmbOperator.Location = new System.Drawing.Point(133, 41);
             this.cmbOperator.Name = "cmbOperator";
             this.cmbOperator.Size = new System.Drawing.Size(121, 39);
