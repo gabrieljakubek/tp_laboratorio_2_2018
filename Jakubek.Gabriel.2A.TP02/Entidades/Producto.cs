@@ -56,6 +56,10 @@ namespace Entidades_2018
         #endregion
 
         #region Sobrecargas
+        /// <summary>
+        /// Sobrecarda del operador explicito string
+        /// </summary>
+        /// <param name="p">Producto</param>
         public static explicit operator string(Producto p)
         {
             StringBuilder sb = new StringBuilder();
@@ -71,8 +75,8 @@ namespace Entidades_2018
         /// <summary>
         /// Dos productos son iguales si comparten el mismo código de barras
         /// </summary>
-        /// <param name="v1"></param>
-        /// <param name="v2"></param>
+        /// <param name="v1">Producto 1</param>
+        /// <param name="v2">producto 2</param>
         /// <returns></returns>
         public static bool operator ==(Producto v1, Producto v2)
         {
@@ -81,8 +85,8 @@ namespace Entidades_2018
         /// <summary>
         /// Dos productos son distintos si su código de barras es distinto
         /// </summary>
-        /// <param name="v1"></param>
-        /// <param name="v2"></param>
+        /// <param name="v1">Producto 1</param>
+        /// <param name="v2">Producto 2</param>
         /// <returns></returns>
         public static bool operator !=(Producto v1, Producto v2)
         {

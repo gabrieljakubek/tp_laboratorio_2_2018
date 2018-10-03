@@ -17,3 +17,9 @@ E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratori
 E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratorio 2A\TP-02\Entidades\obj\Debug\Entidades.pdb
 E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratorio 2A\TP-02\Entidades\bin\Debug\Entidades.dll
 E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratorio 2A\TP-02\Entidades\bin\Debug\Entidades.pdb
+E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratorio 2A\Trabajos Practicos\Jakubek.Gabriel.2A.TP02\Entidades\bin\Debug\Entidades.dll
+E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratorio 2A\Trabajos Practicos\Jakubek.Gabriel.2A.TP02\Entidades\bin\Debug\Entidades.pdb
+E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratorio 2A\Trabajos Practicos\Jakubek.Gabriel.2A.TP02\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratorio 2A\Trabajos Practicos\Jakubek.Gabriel.2A.TP02\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratorio 2A\Trabajos Practicos\Jakubek.Gabriel.2A.TP02\Entidades\obj\Debug\Entidades.dll
+E:\Carrera Programacion Superior\Segundo Cuatrimestre\Programación y laboratorio 2A\Trabajos Practicos\Jakubek.Gabriel.2A.TP02\Entidades\obj\Debug\Entidades.pdb

@@ -11,9 +11,9 @@ namespace Entidades_2018
         /// <summary>
         /// Por defecto, TIPO será ENTERA
         /// </summary>
-        /// <param name="marca"></param>
-        /// <param name="patente"></param>
-        /// <param name="color"></param>
+        /// <param name="marca">Marca del snack</param>
+        /// <param name="patente">El codigo de barra del snack</param>
+        /// <param name="color">Color primario del paquete del snack</param>
         public Leche(EMarca marca, string patente, ConsoleColor color)
             : base(patente, marca, color)
         {
@@ -23,10 +23,10 @@ namespace Entidades_2018
         /// <summary>
         /// Se instancian los parametros de Leche
         /// </summary>
-        /// <param name="marca"></param>
-        /// <param name="patente"></param>
-        /// <param name="color"></param>
-        /// <param name="tipo"></param>
+        /// <param name="marca">Marca del snack</param>
+        /// <param name="patente">El codigo de barra del snack</param>
+        /// <param name="color">Color primario del paquete del snack</param>
+        /// <param name="tipo">Tipo de leche</param>
         public Leche(EMarca marca, string patente, ConsoleColor color, ETipo tipo) :base(patente, marca, color)
         {
             this.tipo = tipo;
@@ -43,6 +43,10 @@ namespace Entidades_2018
             }
         }
 
+        /// <summary>
+        /// Retorna toda la informacion de el producto Leche
+        /// </summary>
+        /// <returns></returns>
         public override sealed string Mostrar()
         {
             StringBuilder sb = new StringBuilder();

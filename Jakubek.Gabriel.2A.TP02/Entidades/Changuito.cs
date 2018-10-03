@@ -19,10 +19,18 @@ namespace Entidades_2018
         }
 
         #region "Constructores"
+        /// <summary>
+        /// Constructor por default
+        /// </summary>
         private Changuito()
         {
             this.productos = new List<Producto>();
         }
+
+        /// <summary>
+        /// Constructor de Changuito, define el espacio disponible
+        /// </summary>
+        /// <param name="espacioDisponible"></param>
         public Changuito(int espacioDisponible) : this()
         {
             this.espacioDisponible = espacioDisponible;
@@ -99,6 +107,7 @@ namespace Entidades_2018
                 c.productos.Add(p);
             return c;
         }
+
         /// <summary>
         /// Quitará un elemento de la lista
         /// </summary>
