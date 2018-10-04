@@ -9,10 +9,10 @@ namespace Entidades_2018
     /// <summary>
     /// No podrá tener clases heredadas.
     /// </summary>
-    public class Changuito
+    public sealed class Changuito
     {
         List<Producto> productos;
-        int espacioDisponible;
+        private int _espacioDisponible;
         public enum ETipo
         {
             Dulce, Leche, Snacks, Todos
@@ -33,7 +33,7 @@ namespace Entidades_2018
         /// <param name="espacioDisponible"></param>
         public Changuito(int espacioDisponible) : this()
         {
-            this.espacioDisponible = espacioDisponible;
+            this._espacioDisponible = espacioDisponible;
         }
         #endregion
 
@@ -61,7 +61,7 @@ namespace Entidades_2018
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendFormat("Tenemos {0} lugares ocupados de un total de {1} disponibles", c.productos.Count, c.espacioDisponible);
+            sb.AppendFormat("Tenemos {0} lugares ocupados de un total de {1} disponibles", c.productos.Count, c._espacioDisponible);
             sb.AppendLine("");
             foreach (Producto v in c.productos)
             {
@@ -103,7 +103,7 @@ namespace Entidades_2018
                 if (v == p)
                     return c;
             }
-            if (c.productos.Count < c.espacioDisponible)
+            if (c.productos.Count < c._espacioDisponible)
                 c.productos.Add(p);
             return c;
         }

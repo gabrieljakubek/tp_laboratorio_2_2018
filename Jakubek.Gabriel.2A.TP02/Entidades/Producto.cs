@@ -17,9 +17,9 @@ namespace Entidades_2018
         }
 
         #region Atributos
-        EMarca marca;
-        string codigoDeBarras;
-        ConsoleColor colorPrimarioEmpaque;
+        private EMarca _marca;
+        private string _codigoDeBarras;
+        private ConsoleColor _colorPrimarioEmpaque;
         #endregion
 
         #region Propiedades
@@ -34,13 +34,13 @@ namespace Entidades_2018
         /// Constructor del producto
         /// </summary>
         /// <param name="patente">El codigo de barraras del producto</param>
-        /// <param name="marca">La marca del producto</param>
+        /// <param name="_marca">La _marca del producto</param>
         /// <param name="color">El color primario del paquete</param>
-        public Producto(string patente, EMarca marca, ConsoleColor color)
+        public Producto(string patente, EMarca _marca, ConsoleColor color)
         {
-            this.codigoDeBarras = patente;
-            this.marca = marca;
-            this.colorPrimarioEmpaque = color;
+            this._codigoDeBarras = patente;
+            this._marca = _marca;
+            this._colorPrimarioEmpaque = color;
         }
         #endregion
 
@@ -64,9 +64,9 @@ namespace Entidades_2018
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendLine("CODIGO DE BARRAS: " + p.codigoDeBarras);
-            sb.AppendLine("MARCA          : " + p.marca.ToString());
-            sb.AppendLine("COLOR EMPAQUE  : " + p.colorPrimarioEmpaque.ToString());
+            sb.AppendLine("CODIGO DE BARRAS: " + p._codigoDeBarras);
+            sb.AppendLine("_marca          : " + p._marca.ToString());
+            sb.AppendLine("COLOR EMPAQUE  : " + p._colorPrimarioEmpaque.ToString());
             sb.AppendLine("---------------------");
 
             return sb.ToString();
@@ -80,7 +80,7 @@ namespace Entidades_2018
         /// <returns></returns>
         public static bool operator ==(Producto v1, Producto v2)
         {
-            return (v1.codigoDeBarras == v2.codigoDeBarras);
+            return (v1._codigoDeBarras == v2._codigoDeBarras);
         }
         /// <summary>
         /// Dos productos son distintos si su código de barras es distinto
@@ -90,7 +90,7 @@ namespace Entidades_2018
         /// <returns></returns>
         public static bool operator !=(Producto v1, Producto v2)
         {
-            return !(v1.codigoDeBarras == v2.codigoDeBarras);
+            return !(v1._codigoDeBarras == v2._codigoDeBarras);
         }
         #endregion
     }
